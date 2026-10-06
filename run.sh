@@ -6,4 +6,4 @@ docker run -d \
   -p 50000:50000 \
   -v jenkins_home:/var/jenkins_home \
   -v /var/run/docker.sock:/var/run/docker.sock \
-  jenkins-with-docker:lts-jdk21
+  jenkins-with-docker:lts-jdk25
